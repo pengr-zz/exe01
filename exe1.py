@@ -3,7 +3,6 @@ import exe2
 import sys 
 import os
 
-print __file__
 
 from exe2 import fuc2
 from exe3 import fuc3
@@ -14,4 +13,5 @@ def fuc1():
     fuc3()
 
 if __name__=="__main__":
+    print __file__
     fuc1()
